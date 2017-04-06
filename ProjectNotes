@@ -1,6 +1,5 @@
-• Only run on iPhone SE For some reason the simulator shows animation on SE but not iPhone 7 and iPhone 7+
 
-• Overall Approach keep the view controllers small, typically these become quite large with many responsibilities and become unmanagable. You can see this by adopting the Adaptor pattern for the tableView.
+• Overall Approach keep the view controllers small, typically these become quite large with many responsibilities and become unmanagable. You can see this by adopting the Adaptor pattern for the tableView. The Adaptor for the table view is reusable for other table views and supports multiple cell types. 
 
 • Adhere to the single responsibility principle. Where each object does one thing and one thing only as much as possible
 
@@ -9,8 +8,6 @@
 • THe highlighted text is implmente but not visible.
 
 • Pull to refresh works to bring up the next set of data.
-
-• Needs more unit tests.
 
 • There is LRU cache which in UIImageView+Extension that demonstrates some multithreaded aware code.
 
