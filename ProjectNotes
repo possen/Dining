@@ -12,4 +12,7 @@
 
 • Needs more unit tests.
 
+• There is LRU cache which in UIImageView+Extension that demonstrates some multithreaded aware code.
+
+
 

@@ -5,7 +5,7 @@
 //
 
 import XCTest
-@testable import Dining
+@testable import DiningApp
 
 class DiningTests: XCTestCase {
     

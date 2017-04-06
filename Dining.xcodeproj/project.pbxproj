@@ -7,16 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		009573011DF2210E003412B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 009572FF1DF2210E003412B9 /* Main.storyboard */; };
-		009573031DF2210E003412B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 009573021DF2210E003412B9 /* Assets.xcassets */; };
-		009573061DF2210E003412B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 009573041DF2210E003412B9 /* LaunchScreen.storyboard */; };
 		009573111DF2210E003412B9 /* DiningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009573101DF2210E003412B9 /* DiningTests.swift */; };
 		0095731C1DF2210F003412B9 /* DiningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0095731B1DF2210F003412B9 /* DiningUITests.swift */; };
+		D5006EDD1E96C08700A1F1CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5006ED91E96C08700A1F1CD /* LaunchScreen.storyboard */; };
+		D5006EDE1E96C08700A1F1CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5006EDB1E96C08700A1F1CD /* Main.storyboard */; };
 		D53D09C41E7B431B00D874D9 /* 2dishes.json in Resources */ = {isa = PBXBuildFile; fileRef = D53D09AB1E7B431B00D874D9 /* 2dishes.json */; };
 		D53D09C51E7B431B00D874D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53D09AC1E7B431B00D874D9 /* AppDelegate.swift */; };
 		D53D09C71E7B431B00D874D9 /* BannerTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53D09AE1E7B431B00D874D9 /* BannerTabViewController.swift */; };
-		D53D09C81E7B431B00D874D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D53D09B01E7B431B00D874D9 /* LaunchScreen.storyboard */; };
-		D53D09C91E7B431B00D874D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D53D09B21E7B431B00D874D9 /* Main.storyboard */; };
 		D53D09CA1E7B431B00D874D9 /* DishTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53D09B41E7B431B00D874D9 /* DishTableViewCell.swift */; };
 		D53D09CB1E7B431B00D874D9 /* FullReservation.json in Resources */ = {isa = PBXBuildFile; fileRef = D53D09B51E7B431B00D874D9 /* FullReservation.json */; };
 		D53D09CC1E7B431B00D874D9 /* InteractiveControllerDismissal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53D09B61E7B431B00D874D9 /* InteractiveControllerDismissal.swift */; };
@@ -33,7 +30,6 @@
 		D53D09D71E7B431B00D874D9 /* TableViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53D09C11E7B431B00D874D9 /* TableViewAdapter.swift */; };
 		D53D09D81E7B431B00D874D9 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53D09C21E7B431B00D874D9 /* UIImageView+Extension.swift */; };
 		D53D09D91E7B431B00D874D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53D09C31E7B431B00D874D9 /* ViewController.swift */; };
-		D563AD271E60EFAD00409242 /* ReservationJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D563AD261E60EFAD00409242 /* ReservationJSON.swift */; };
 		D59E8D7A1E66B3BA00D81A05 /* ProjectNotes in Resources */ = {isa = PBXBuildFile; fileRef = D59E8D791E66B3B900D81A05 /* ProjectNotes */; };
 /* End PBXBuildFile section */
 
@@ -69,9 +65,6 @@
 
 /* Begin PBXFileReference section */
 		009572F81DF2210E003412B9 /* DiningApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiningApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		009573001DF2210E003412B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		009573021DF2210E003412B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Dining/Assets.xcassets; sourceTree = "<group>"; };
-		009573051DF2210E003412B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		009573071DF2210E003412B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = Dining/Info.plist; sourceTree = "<group>"; };
 		0095730C1DF2210E003412B9 /* DiningAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiningAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		009573101DF2210E003412B9 /* DiningTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiningTests.swift; sourceTree = "<group>"; };
@@ -79,12 +72,12 @@
 		009573171DF2210F003412B9 /* DiningAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiningAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0095731B1DF2210F003412B9 /* DiningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiningUITests.swift; sourceTree = "<group>"; };
 		0095731D1DF2210F003412B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5006EDA1E96C08700A1F1CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5006EDC1E96C08700A1F1CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
 		D53D09AB1E7B431B00D874D9 /* 2dishes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = 2dishes.json; path = Dining/2dishes.json; sourceTree = "<group>"; };
 		D53D09AC1E7B431B00D874D9 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Dining/AppDelegate.swift; sourceTree = "<group>"; };
 		D53D09AD1E7B431B00D874D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Dining/Assets.xcassets; sourceTree = "<group>"; };
 		D53D09AE1E7B431B00D874D9 /* BannerTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BannerTabViewController.swift; path = Dining/BannerTabViewController.swift; sourceTree = "<group>"; };
-		D53D09B11E7B431B00D874D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D53D09B31E7B431B00D874D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
 		D53D09B41E7B431B00D874D9 /* DishTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DishTableViewCell.swift; path = Dining/DishTableViewCell.swift; sourceTree = "<group>"; };
 		D53D09B51E7B431B00D874D9 /* FullReservation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = FullReservation.json; path = Dining/FullReservation.json; sourceTree = "<group>"; };
 		D53D09B61E7B431B00D874D9 /* InteractiveControllerDismissal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InteractiveControllerDismissal.swift; path = Dining/InteractiveControllerDismissal.swift; sourceTree = "<group>"; };
@@ -101,7 +94,6 @@
 		D53D09C11E7B431B00D874D9 /* TableViewAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewAdapter.swift; path = Dining/TableViewAdapter.swift; sourceTree = "<group>"; };
 		D53D09C21E7B431B00D874D9 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImageView+Extension.swift"; path = "Dining/UIImageView+Extension.swift"; sourceTree = "<group>"; };
 		D53D09C31E7B431B00D874D9 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Dining/ViewController.swift; sourceTree = "<group>"; };
-		D563AD261E60EFAD00409242 /* ReservationJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReservationJSON.swift; path = Dining/ReservationJSON.swift; sourceTree = "<group>"; };
 		D59E8D791E66B3B900D81A05 /* ProjectNotes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ProjectNotes; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -155,32 +147,14 @@
 		009572FA1DF2210E003412B9 /* Dining */ = {
 			isa = PBXGroup;
 			children = (
-				D53D09AB1E7B431B00D874D9 /* 2dishes.json */,
+				D53D09AF1E7B431B00D874D9 /* Base.lproj */,
 				D53D09AC1E7B431B00D874D9 /* AppDelegate.swift */,
 				D53D09AD1E7B431B00D874D9 /* Assets.xcassets */,
-				D53D09AE1E7B431B00D874D9 /* BannerTabViewController.swift */,
-				D53D09AF1E7B431B00D874D9 /* Base.lproj */,
-				D53D09B41E7B431B00D874D9 /* DishTableViewCell.swift */,
-				D53D09B51E7B431B00D874D9 /* FullReservation.json */,
-				D53D09B61E7B431B00D874D9 /* InteractiveControllerDismissal.swift */,
-				D53D09B71E7B431B00D874D9 /* InteractiveControllerPresenataion.swift */,
-				D53D09B81E7B431B00D874D9 /* MapTableViewCell.swift */,
-				D53D09B91E7B431B00D874D9 /* PartialReservation.json */,
-				D53D09BA1E7B431B00D874D9 /* Reservation.swift */,
-				D53D09BB1E7B431B00D874D9 /* ReservationAssembler.swift */,
-				D53D09BC1E7B431B00D874D9 /* ReservationDataManager.swift */,
-				D53D09BD1E7B431B00D874D9 /* ReservationTableViewCell.swift */,
-				D53D09BE1E7B431B00D874D9 /* ReservationTableViewController.swift */,
-				D53D09BF1E7B431B00D874D9 /* SlideDismissController.swift */,
-				D53D09C01E7B431B00D874D9 /* SlidePresentationController.swift */,
-				D53D09C11E7B431B00D874D9 /* TableViewAdapter.swift */,
-				D53D09C21E7B431B00D874D9 /* UIImageView+Extension.swift */,
-				D53D09C31E7B431B00D874D9 /* ViewController.swift */,
-				009572FF1DF2210E003412B9 /* Main.storyboard */,
-				009573021DF2210E003412B9 /* Assets.xcassets */,
-				009573041DF2210E003412B9 /* LaunchScreen.storyboard */,
+				D5006ED51E96BBED00A1F1CD /* Views */,
+				D5006ED71E96BCE500A1F1CD /* Controller */,
+				D5006ED61E96BCBF00A1F1CD /* Model */,
+				D5006ED81E96BCFC00A1F1CD /* JSONData */,
 				009573071DF2210E003412B9 /* Info.plist */,
-				D563AD261E60EFAD00409242 /* ReservationJSON.swift */,
 			);
 			name = Dining;
 			sourceTree = "<group>";
@@ -210,11 +184,57 @@
 			path = Frameworks;
 			sourceTree = "<group>";
 		};
+		D5006ED51E96BBED00A1F1CD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D53D09C21E7B431B00D874D9 /* UIImageView+Extension.swift */,
+				D53D09B41E7B431B00D874D9 /* DishTableViewCell.swift */,
+				D53D09B81E7B431B00D874D9 /* MapTableViewCell.swift */,
+				D53D09BD1E7B431B00D874D9 /* ReservationTableViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		D5006ED61E96BCBF00A1F1CD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D53D09BA1E7B431B00D874D9 /* Reservation.swift */,
+				D53D09BB1E7B431B00D874D9 /* ReservationAssembler.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D5006ED71E96BCE500A1F1CD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D53D09AE1E7B431B00D874D9 /* BannerTabViewController.swift */,
+				D53D09BC1E7B431B00D874D9 /* ReservationDataManager.swift */,
+				D53D09BE1E7B431B00D874D9 /* ReservationTableViewController.swift */,
+				D53D09B61E7B431B00D874D9 /* InteractiveControllerDismissal.swift */,
+				D53D09B71E7B431B00D874D9 /* InteractiveControllerPresenataion.swift */,
+				D53D09BF1E7B431B00D874D9 /* SlideDismissController.swift */,
+				D53D09C01E7B431B00D874D9 /* SlidePresentationController.swift */,
+				D53D09C11E7B431B00D874D9 /* TableViewAdapter.swift */,
+				D53D09C31E7B431B00D874D9 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		D5006ED81E96BCFC00A1F1CD /* JSONData */ = {
+			isa = PBXGroup;
+			children = (
+				D53D09AB1E7B431B00D874D9 /* 2dishes.json */,
+				D53D09B51E7B431B00D874D9 /* FullReservation.json */,
+				D53D09B91E7B431B00D874D9 /* PartialReservation.json */,
+			);
+			name = JSONData;
+			sourceTree = "<group>";
+		};
 		D53D09AF1E7B431B00D874D9 /* Base.lproj */ = {
 			isa = PBXGroup;
 			children = (
-				D53D09B01E7B431B00D874D9 /* LaunchScreen.storyboard */,
-				D53D09B21E7B431B00D874D9 /* Main.storyboard */,
+				D5006ED91E96C08700A1F1CD /* LaunchScreen.storyboard */,
+				D5006EDB1E96C08700A1F1CD /* Main.storyboard */,
 			);
 			name = Base.lproj;
 			path = Dining/Base.lproj;
@@ -332,14 +352,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				009573061DF2210E003412B9 /* LaunchScreen.storyboard in Resources */,
 				D59E8D7A1E66B3BA00D81A05 /* ProjectNotes in Resources */,
-				009573031DF2210E003412B9 /* Assets.xcassets in Resources */,
-				D53D09C91E7B431B00D874D9 /* Main.storyboard in Resources */,
-				009573011DF2210E003412B9 /* Main.storyboard in Resources */,
-				D53D09C81E7B431B00D874D9 /* LaunchScreen.storyboard in Resources */,
 				D53D09CB1E7B431B00D874D9 /* FullReservation.json in Resources */,
 				D53D09CF1E7B431B00D874D9 /* PartialReservation.json in Resources */,
+				D5006EDE1E96C08700A1F1CD /* Main.storyboard in Resources */,
+				D5006EDD1E96C08700A1F1CD /* LaunchScreen.storyboard in Resources */,
 				D53D09C41E7B431B00D874D9 /* 2dishes.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -375,7 +392,6 @@
 				D53D09CC1E7B431B00D874D9 /* InteractiveControllerDismissal.swift in Sources */,
 				D53D09D71E7B431B00D874D9 /* TableViewAdapter.swift in Sources */,
 				D53D09D91E7B431B00D874D9 /* ViewController.swift in Sources */,
-				D563AD271E60EFAD00409242 /* ReservationJSON.swift in Sources */,
 				D53D09D81E7B431B00D874D9 /* UIImageView+Extension.swift in Sources */,
 				D53D09D41E7B431B00D874D9 /* ReservationTableViewController.swift in Sources */,
 				D53D09D01E7B431B00D874D9 /* Reservation.swift in Sources */,
@@ -417,36 +433,18 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		009572FF1DF2210E003412B9 /* Main.storyboard */ = {
+		D5006ED91E96C08700A1F1CD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				009573001DF2210E003412B9 /* Base */,
-			);
-			name = Main.storyboard;
-			path = Dining;
-			sourceTree = "<group>";
-		};
-		009573041DF2210E003412B9 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				009573051DF2210E003412B9 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			path = Dining;
-			sourceTree = "<group>";
-		};
-		D53D09B01E7B431B00D874D9 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D53D09B11E7B431B00D874D9 /* Base */,
+				D5006EDA1E96C08700A1F1CD /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		D53D09B21E7B431B00D874D9 /* Main.storyboard */ = {
+		D5006EDB1E96C08700A1F1CD /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D53D09B31E7B431B00D874D9 /* Base */,
+				D5006EDC1E96C08700A1F1CD /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
