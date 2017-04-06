@@ -37,7 +37,7 @@ class ReservationDataManager {
         let filename = ReservationDataManager.testfileNames[ReservationDataManager.count]
         
         let url = Bundle.main.url(forResource: filename, withExtension:"json")
-        NSLog("Test File \(url)")
+        NSLog("Test File \(url?.description ?? "File not found")")
         let data = try! Data(contentsOf:url!, options: Data.ReadingOptions.uncached)
         let json = try! JSONSerialization.jsonObject(with: data, options: []) as? [String : Any]
         

@@ -14,7 +14,6 @@
 		0095731C1DF2210F003412B9 /* DiningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0095731B1DF2210F003412B9 /* DiningUITests.swift */; };
 		D53D09C41E7B431B00D874D9 /* 2dishes.json in Resources */ = {isa = PBXBuildFile; fileRef = D53D09AB1E7B431B00D874D9 /* 2dishes.json */; };
 		D53D09C51E7B431B00D874D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53D09AC1E7B431B00D874D9 /* AppDelegate.swift */; };
-		D53D09C61E7B431B00D874D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D53D09AD1E7B431B00D874D9 /* Assets.xcassets */; };
 		D53D09C71E7B431B00D874D9 /* BannerTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53D09AE1E7B431B00D874D9 /* BannerTabViewController.swift */; };
 		D53D09C81E7B431B00D874D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D53D09B01E7B431B00D874D9 /* LaunchScreen.storyboard */; };
 		D53D09C91E7B431B00D874D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D53D09B21E7B431B00D874D9 /* Main.storyboard */; };
@@ -285,7 +284,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					009572F71DF2210E003412B9 = {
@@ -340,7 +339,6 @@
 				009573011DF2210E003412B9 /* Main.storyboard in Resources */,
 				D53D09C81E7B431B00D874D9 /* LaunchScreen.storyboard in Resources */,
 				D53D09CB1E7B431B00D874D9 /* FullReservation.json in Resources */,
-				D53D09C61E7B431B00D874D9 /* Assets.xcassets in Resources */,
 				D53D09CF1E7B431B00D874D9 /* PartialReservation.json in Resources */,
 				D53D09C41E7B431B00D874D9 /* 2dishes.json in Resources */,
 			);

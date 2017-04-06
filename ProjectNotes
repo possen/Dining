@@ -4,20 +4,11 @@
 
 • Adhere to the single responsibility principle. Where each object does one thing and one thing only as much as possible
 
-• Try to utilize type system, I did run into problems with "Type Erasing" and ths caused a delay
-
-• I wanted to get the Banner Controller Animation to work better but I left this to last. I can keep working on it.
-
 • Updates occur for UI on main thread.
-
-
-• should support different devices such as iPad, iPhone 6+, and iPhone. Handles size classes as appropriate. Although I did notice some issues in iPad version.
 
 • THe highlighted text is implmente but not visible.
 
 • Pull to refresh works to bring up the next set of data.
-
-• THe interactive animation is triggered by pulling down on the close button (but is not wokring very well right now).
 
 • Needs more unit tests.
 
