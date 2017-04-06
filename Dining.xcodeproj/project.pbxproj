@@ -150,7 +150,7 @@
 				D53D09AF1E7B431B00D874D9 /* Base.lproj */,
 				D53D09AC1E7B431B00D874D9 /* AppDelegate.swift */,
 				D53D09AD1E7B431B00D874D9 /* Assets.xcassets */,
-				D5006ED51E96BBED00A1F1CD /* Views */,
+				D5006ED51E96BBED00A1F1CD /* View */,
 				D5006ED71E96BCE500A1F1CD /* Controller */,
 				D5006ED61E96BCBF00A1F1CD /* Model */,
 				D5006ED81E96BCFC00A1F1CD /* JSONData */,
@@ -184,7 +184,7 @@
 			path = Frameworks;
 			sourceTree = "<group>";
 		};
-		D5006ED51E96BBED00A1F1CD /* Views */ = {
+		D5006ED51E96BBED00A1F1CD /* View */ = {
 			isa = PBXGroup;
 			children = (
 				D53D09C21E7B431B00D874D9 /* UIImageView+Extension.swift */,
@@ -192,7 +192,7 @@
 				D53D09B81E7B431B00D874D9 /* MapTableViewCell.swift */,
 				D53D09BD1E7B431B00D874D9 /* ReservationTableViewCell.swift */,
 			);
-			name = Views;
+			name = View;
 			sourceTree = "<group>";
 		};
 		D5006ED61E96BCBF00A1F1CD /* Model */ = {
