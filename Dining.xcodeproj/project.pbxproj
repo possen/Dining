@@ -3,60 +3,137 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		009573111DF2210E003412B9 /* DiningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009573101DF2210E003412B9 /* DiningTests.swift */; };
-		0095731C1DF2210F003412B9 /* DiningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0095731B1DF2210F003412B9 /* DiningUITests.swift */; };
-		D5006EDD1E96C08700A1F1CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5006ED91E96C08700A1F1CD /* LaunchScreen.storyboard */; };
-		D5006EDE1E96C08700A1F1CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5006EDB1E96C08700A1F1CD /* Main.storyboard */; };
-		D53D09C41E7B431B00D874D9 /* 2dishes.json in Resources */ = {isa = PBXBuildFile; fileRef = D53D09AB1E7B431B00D874D9 /* 2dishes.json */; };
-		D53D09C51E7B431B00D874D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53D09AC1E7B431B00D874D9 /* AppDelegate.swift */; };
-		D53D09C71E7B431B00D874D9 /* BannerTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53D09AE1E7B431B00D874D9 /* BannerTabViewController.swift */; };
-		D53D09CA1E7B431B00D874D9 /* DishTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53D09B41E7B431B00D874D9 /* DishTableViewCell.swift */; };
-		D53D09CB1E7B431B00D874D9 /* FullReservation.json in Resources */ = {isa = PBXBuildFile; fileRef = D53D09B51E7B431B00D874D9 /* FullReservation.json */; };
-		D53D09CC1E7B431B00D874D9 /* InteractiveControllerDismissal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53D09B61E7B431B00D874D9 /* InteractiveControllerDismissal.swift */; };
-		D53D09CD1E7B431B00D874D9 /* InteractiveControllerPresenataion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53D09B71E7B431B00D874D9 /* InteractiveControllerPresenataion.swift */; };
-		D53D09CE1E7B431B00D874D9 /* MapTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53D09B81E7B431B00D874D9 /* MapTableViewCell.swift */; };
-		D53D09CF1E7B431B00D874D9 /* PartialReservation.json in Resources */ = {isa = PBXBuildFile; fileRef = D53D09B91E7B431B00D874D9 /* PartialReservation.json */; };
-		D53D09D01E7B431B00D874D9 /* Reservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53D09BA1E7B431B00D874D9 /* Reservation.swift */; };
-		D53D09D11E7B431B00D874D9 /* ReservationAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53D09BB1E7B431B00D874D9 /* ReservationAssembler.swift */; };
-		D53D09D21E7B431B00D874D9 /* ReservationDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53D09BC1E7B431B00D874D9 /* ReservationDataManager.swift */; };
-		D53D09D31E7B431B00D874D9 /* ReservationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53D09BD1E7B431B00D874D9 /* ReservationTableViewCell.swift */; };
-		D53D09D41E7B431B00D874D9 /* ReservationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53D09BE1E7B431B00D874D9 /* ReservationTableViewController.swift */; };
-		D53D09D51E7B431B00D874D9 /* SlideDismissController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53D09BF1E7B431B00D874D9 /* SlideDismissController.swift */; };
-		D53D09D61E7B431B00D874D9 /* SlidePresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53D09C01E7B431B00D874D9 /* SlidePresentationController.swift */; };
-		D53D09D71E7B431B00D874D9 /* TableViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53D09C11E7B431B00D874D9 /* TableViewAdapter.swift */; };
-		D53D09D81E7B431B00D874D9 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53D09C21E7B431B00D874D9 /* UIImageView+Extension.swift */; };
-		D53D09D91E7B431B00D874D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53D09C31E7B431B00D874D9 /* ViewController.swift */; };
-		D59E8D7A1E66B3BA00D81A05 /* ProjectNotes in Resources */ = {isa = PBXBuildFile; fileRef = D59E8D791E66B3B900D81A05 /* ProjectNotes */; };
+		D514CE9D1EBD299C00CC25C0 /* DiningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D514CE9C1EBD299C00CC25C0 /* DiningUITests.swift */; };
+		D514CEA81EBD29D400CC25C0 /* Runes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* Runes.framework */; };
+		D514CEA91EBD29D400CC25C0 /* Runes.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* Runes.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D514CEAC1EBD29D400CC25C0 /* Argo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_51 /* Argo.framework */; };
+		D514CEAD1EBD29D400CC25C0 /* Argo.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_51 /* Argo.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D514CEB01EBD29D400CC25C0 /* Curry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_52 /* Curry.framework */; };
+		D514CEB11EBD29D400CC25C0 /* Curry.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_52 /* Curry.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D514CEE41EBD363A00CC25C0 /* DishTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D514CEBF1EBD2AF600CC25C0 /* DishTableViewCell.swift */; };
+		D514CEE51EBD364100CC25C0 /* BannerTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D514CEB91EBD2AF600CC25C0 /* BannerTabViewController.swift */; };
+		D514CEE61EBD364600CC25C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D514CEB71EBD2AF600CC25C0 /* AppDelegate.swift */; };
+		D514CEE71EBD364C00CC25C0 /* FullReservation.json in Resources */ = {isa = PBXBuildFile; fileRef = D514CEC01EBD2AF600CC25C0 /* FullReservation.json */; };
+		D514CEE81EBD365300CC25C0 /* InteractiveControllerPresenataion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D514CEC31EBD2AF600CC25C0 /* InteractiveControllerPresenataion.swift */; };
+		D514CEE91EBD365700CC25C0 /* MapTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D514CEC41EBD2AF600CC25C0 /* MapTableViewCell.swift */; };
+		D514CEEA1EBD365B00CC25C0 /* PartialReservation.json in Resources */ = {isa = PBXBuildFile; fileRef = D514CEC51EBD2AF600CC25C0 /* PartialReservation.json */; };
+		D514CEEB1EBD365E00CC25C0 /* Reservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D514CEC61EBD2AF600CC25C0 /* Reservation.swift */; };
+		D514CEEC1EBD366300CC25C0 /* ReservationAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D514CEC71EBD2AF600CC25C0 /* ReservationAssembler.swift */; };
+		D514CEED1EBD366900CC25C0 /* ReservationDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D514CEC81EBD2AF600CC25C0 /* ReservationDataManager.swift */; };
+		D514CEEE1EBD366D00CC25C0 /* ReservationJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D514CEC91EBD2AF600CC25C0 /* ReservationJSON.swift */; };
+		D514CEEF1EBD367200CC25C0 /* ReservationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D514CECA1EBD2AF600CC25C0 /* ReservationTableViewCell.swift */; };
+		D514CEF01EBD367700CC25C0 /* ReservationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D514CECB1EBD2AF600CC25C0 /* ReservationTableViewController.swift */; };
+		D514CEF11EBD367C00CC25C0 /* SlideDismissController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D514CECC1EBD2AF600CC25C0 /* SlideDismissController.swift */; };
+		D514CEF21EBD368000CC25C0 /* SlidePresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D514CECD1EBD2AF600CC25C0 /* SlidePresentationController.swift */; };
+		D514CEF31EBD368500CC25C0 /* TableViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D514CECE1EBD2AF600CC25C0 /* TableViewAdapter.swift */; };
+		D514CEF51EBD368A00CC25C0 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D514CECF1EBD2AF600CC25C0 /* UIImageView+Extension.swift */; };
+		D514CEF61EBD369000CC25C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D514CED01EBD2AF600CC25C0 /* ViewController.swift */; };
+		D514CEF91EBD376E00CC25C0 /* InteractiveControllerDismissal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D514CEC21EBD2AF600CC25C0 /* InteractiveControllerDismissal.swift */; };
+		D514CEFB1EBD379D00CC25C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D514CEB81EBD2AF600CC25C0 /* Assets.xcassets */; };
+		D530BDF21EBD8E5100C051B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D514CEBB1EBD2AF600CC25C0 /* LaunchScreen.storyboard */; };
+		D530BDF31EBD8E5700C051B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D514CEBD1EBD2AF600CC25C0 /* Main.storyboard */; };
+		OBJ_118 /* Runes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* Runes.framework */; };
+		OBJ_119 /* Argo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_51 /* Argo.framework */; };
+		OBJ_120 /* Curry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_52 /* Curry.framework */; };
+		OBJ_60 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* Array.swift */; };
+		OBJ_61 /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* Optional.swift */; };
+		OBJ_62 /* Runes.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_48 /* Runes.swift */; };
+		OBJ_69 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* Dictionary.swift */; };
+		OBJ_70 /* NSNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* NSNumber.swift */; };
+		OBJ_71 /* RawRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* RawRepresentable.swift */; };
+		OBJ_72 /* catDecoded.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* catDecoded.swift */; };
+		OBJ_73 /* decode.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* decode.swift */; };
+		OBJ_74 /* flatReduce.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* flatReduce.swift */; };
+		OBJ_75 /* sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* sequence.swift */; };
+		OBJ_76 /* Argo.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* Argo.swift */; };
+		OBJ_77 /* DecodeOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* DecodeOperators.swift */; };
+		OBJ_78 /* Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* Decodable.swift */; };
+		OBJ_79 /* DecodeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* DecodeError.swift */; };
+		OBJ_80 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* JSON.swift */; };
+		OBJ_81 /* StandardTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* StandardTypes.swift */; };
+		OBJ_82 /* Alternative.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* Alternative.swift */; };
+		OBJ_83 /* Applicative.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* Applicative.swift */; };
+		OBJ_84 /* Decoded.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* Decoded.swift */; };
+		OBJ_85 /* FailureCoalescing.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* FailureCoalescing.swift */; };
+		OBJ_86 /* Functor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* Functor.swift */; };
+		OBJ_87 /* Monad.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* Monad.swift */; };
+		OBJ_89 /* Runes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* Runes.framework */; };
+		OBJ_96 /* Curry.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* Curry.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0095730D1DF2210E003412B9 /* PBXContainerItemProxy */ = {
+		D514CE6E1EBD285D00CC25C0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 009572F01DF2210E003412B9 /* Project object */;
+			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 009572F71DF2210E003412B9;
+			remoteGlobalIDString = OBJ_55;
+			remoteInfo = Runes;
+		};
+		D514CE721EBD285D00CC25C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_55;
+			remoteInfo = Runes;
+		};
+		D514CE731EBD285D00CC25C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_64;
+			remoteInfo = Argo;
+		};
+		D514CE741EBD285D00CC25C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_91;
+			remoteInfo = Curry;
+		};
+		D514CE991EBD299C00CC25C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D514CE791EBD299C00CC25C0;
 			remoteInfo = Dining;
 		};
-		009573181DF2210F003412B9 /* PBXContainerItemProxy */ = {
+		D514CEAA1EBD29D400CC25C0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 009572F01DF2210E003412B9 /* Project object */;
+			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 009572F71DF2210E003412B9;
-			remoteInfo = Dining;
+			remoteGlobalIDString = OBJ_55;
+			remoteInfo = Runes;
+		};
+		D514CEAE1EBD29D400CC25C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_64;
+			remoteInfo = Argo;
+		};
+		D514CEB21EBD29D400CC25C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_91;
+			remoteInfo = Curry;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		009573371DF23288003412B9 /* Embed Frameworks */ = {
+		D514CEB41EBD29D400CC25C0 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				D514CEA91EBD29D400CC25C0 /* Runes.framework in Embed Frameworks */,
+				D514CEAD1EBD29D400CC25C0 /* Argo.framework in Embed Frameworks */,
+				D514CEB11EBD29D400CC25C0 /* Curry.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -64,57 +141,112 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		009572F81DF2210E003412B9 /* DiningApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiningApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		009573071DF2210E003412B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = Dining/Info.plist; sourceTree = "<group>"; };
-		0095730C1DF2210E003412B9 /* DiningAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiningAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		009573101DF2210E003412B9 /* DiningTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiningTests.swift; sourceTree = "<group>"; };
-		009573121DF2210E003412B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		009573171DF2210F003412B9 /* DiningAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiningAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0095731B1DF2210F003412B9 /* DiningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiningUITests.swift; sourceTree = "<group>"; };
-		0095731D1DF2210F003412B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D5006EDA1E96C08700A1F1CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D5006EDC1E96C08700A1F1CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
-		D53D09AB1E7B431B00D874D9 /* 2dishes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = 2dishes.json; path = Dining/2dishes.json; sourceTree = "<group>"; };
-		D53D09AC1E7B431B00D874D9 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Dining/AppDelegate.swift; sourceTree = "<group>"; };
-		D53D09AD1E7B431B00D874D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Dining/Assets.xcassets; sourceTree = "<group>"; };
-		D53D09AE1E7B431B00D874D9 /* BannerTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BannerTabViewController.swift; path = Dining/BannerTabViewController.swift; sourceTree = "<group>"; };
-		D53D09B41E7B431B00D874D9 /* DishTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DishTableViewCell.swift; path = Dining/DishTableViewCell.swift; sourceTree = "<group>"; };
-		D53D09B51E7B431B00D874D9 /* FullReservation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = FullReservation.json; path = Dining/FullReservation.json; sourceTree = "<group>"; };
-		D53D09B61E7B431B00D874D9 /* InteractiveControllerDismissal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InteractiveControllerDismissal.swift; path = Dining/InteractiveControllerDismissal.swift; sourceTree = "<group>"; };
-		D53D09B71E7B431B00D874D9 /* InteractiveControllerPresenataion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InteractiveControllerPresenataion.swift; path = Dining/InteractiveControllerPresenataion.swift; sourceTree = "<group>"; };
-		D53D09B81E7B431B00D874D9 /* MapTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapTableViewCell.swift; path = Dining/MapTableViewCell.swift; sourceTree = "<group>"; };
-		D53D09B91E7B431B00D874D9 /* PartialReservation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = PartialReservation.json; path = Dining/PartialReservation.json; sourceTree = "<group>"; };
-		D53D09BA1E7B431B00D874D9 /* Reservation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Reservation.swift; path = Dining/Reservation.swift; sourceTree = "<group>"; };
-		D53D09BB1E7B431B00D874D9 /* ReservationAssembler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReservationAssembler.swift; path = Dining/ReservationAssembler.swift; sourceTree = "<group>"; };
-		D53D09BC1E7B431B00D874D9 /* ReservationDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReservationDataManager.swift; path = Dining/ReservationDataManager.swift; sourceTree = "<group>"; };
-		D53D09BD1E7B431B00D874D9 /* ReservationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReservationTableViewCell.swift; path = Dining/ReservationTableViewCell.swift; sourceTree = "<group>"; };
-		D53D09BE1E7B431B00D874D9 /* ReservationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReservationTableViewController.swift; path = Dining/ReservationTableViewController.swift; sourceTree = "<group>"; };
-		D53D09BF1E7B431B00D874D9 /* SlideDismissController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SlideDismissController.swift; path = Dining/SlideDismissController.swift; sourceTree = "<group>"; };
-		D53D09C01E7B431B00D874D9 /* SlidePresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SlidePresentationController.swift; path = Dining/SlidePresentationController.swift; sourceTree = "<group>"; };
-		D53D09C11E7B431B00D874D9 /* TableViewAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewAdapter.swift; path = Dining/TableViewAdapter.swift; sourceTree = "<group>"; };
-		D53D09C21E7B431B00D874D9 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImageView+Extension.swift"; path = "Dining/UIImageView+Extension.swift"; sourceTree = "<group>"; };
-		D53D09C31E7B431B00D874D9 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Dining/ViewController.swift; sourceTree = "<group>"; };
-		D59E8D791E66B3B900D81A05 /* ProjectNotes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ProjectNotes; sourceTree = "<group>"; };
+		D514CE7A1EBD299C00CC25C0 /* Dining.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dining.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D514CE911EBD299C00CC25C0 /* DiningTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiningTests.swift; sourceTree = "<group>"; };
+		D514CE931EBD299C00CC25C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D514CE981EBD299C00CC25C0 /* DiningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D514CE9C1EBD299C00CC25C0 /* DiningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiningUITests.swift; sourceTree = "<group>"; };
+		D514CE9E1EBD299C00CC25C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D514CEB61EBD2AF600CC25C0 /* 2dishes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 2dishes.json; sourceTree = "<group>"; };
+		D514CEB71EBD2AF600CC25C0 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D514CEB81EBD2AF600CC25C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D514CEB91EBD2AF600CC25C0 /* BannerTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerTabViewController.swift; sourceTree = "<group>"; };
+		D514CEBC1EBD2AF600CC25C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D514CEBE1EBD2AF600CC25C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		D514CEBF1EBD2AF600CC25C0 /* DishTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DishTableViewCell.swift; sourceTree = "<group>"; };
+		D514CEC01EBD2AF600CC25C0 /* FullReservation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FullReservation.json; sourceTree = "<group>"; };
+		D514CEC11EBD2AF600CC25C0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D514CEC21EBD2AF600CC25C0 /* InteractiveControllerDismissal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractiveControllerDismissal.swift; sourceTree = "<group>"; };
+		D514CEC31EBD2AF600CC25C0 /* InteractiveControllerPresenataion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractiveControllerPresenataion.swift; sourceTree = "<group>"; };
+		D514CEC41EBD2AF600CC25C0 /* MapTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapTableViewCell.swift; sourceTree = "<group>"; };
+		D514CEC51EBD2AF600CC25C0 /* PartialReservation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PartialReservation.json; sourceTree = "<group>"; };
+		D514CEC61EBD2AF600CC25C0 /* Reservation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reservation.swift; sourceTree = "<group>"; };
+		D514CEC71EBD2AF600CC25C0 /* ReservationAssembler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReservationAssembler.swift; sourceTree = "<group>"; };
+		D514CEC81EBD2AF600CC25C0 /* ReservationDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReservationDataManager.swift; sourceTree = "<group>"; };
+		D514CEC91EBD2AF600CC25C0 /* ReservationJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReservationJSON.swift; sourceTree = "<group>"; };
+		D514CECA1EBD2AF600CC25C0 /* ReservationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReservationTableViewCell.swift; sourceTree = "<group>"; };
+		D514CECB1EBD2AF600CC25C0 /* ReservationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReservationTableViewController.swift; sourceTree = "<group>"; };
+		D514CECC1EBD2AF600CC25C0 /* SlideDismissController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideDismissController.swift; sourceTree = "<group>"; };
+		D514CECD1EBD2AF600CC25C0 /* SlidePresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlidePresentationController.swift; sourceTree = "<group>"; };
+		D514CECE1EBD2AF600CC25C0 /* TableViewAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewAdapter.swift; sourceTree = "<group>"; };
+		D514CECF1EBD2AF600CC25C0 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		D514CED01EBD2AF600CC25C0 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		OBJ_18 /* Curry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Curry.swift; sourceTree = "<group>"; };
+		OBJ_22 /* Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
+		OBJ_23 /* NSNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSNumber.swift; sourceTree = "<group>"; };
+		OBJ_24 /* RawRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawRepresentable.swift; sourceTree = "<group>"; };
+		OBJ_26 /* catDecoded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = catDecoded.swift; sourceTree = "<group>"; };
+		OBJ_27 /* decode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = decode.swift; sourceTree = "<group>"; };
+		OBJ_28 /* flatReduce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flatReduce.swift; sourceTree = "<group>"; };
+		OBJ_29 /* sequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sequence.swift; sourceTree = "<group>"; };
+		OBJ_31 /* Argo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Argo.swift; sourceTree = "<group>"; };
+		OBJ_32 /* DecodeOperators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodeOperators.swift; sourceTree = "<group>"; };
+		OBJ_34 /* Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decodable.swift; sourceTree = "<group>"; };
+		OBJ_35 /* DecodeError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodeError.swift; sourceTree = "<group>"; };
+		OBJ_36 /* JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
+		OBJ_37 /* StandardTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardTypes.swift; sourceTree = "<group>"; };
+		OBJ_39 /* Alternative.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alternative.swift; sourceTree = "<group>"; };
+		OBJ_40 /* Applicative.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Applicative.swift; sourceTree = "<group>"; };
+		OBJ_41 /* Decoded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decoded.swift; sourceTree = "<group>"; };
+		OBJ_42 /* FailureCoalescing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailureCoalescing.swift; sourceTree = "<group>"; };
+		OBJ_43 /* Functor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functor.swift; sourceTree = "<group>"; };
+		OBJ_44 /* Monad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monad.swift; sourceTree = "<group>"; };
+		OBJ_46 /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		OBJ_47 /* Optional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Optional.swift; sourceTree = "<group>"; };
+		OBJ_48 /* Runes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Runes.swift; sourceTree = "<group>"; };
+		OBJ_50 /* Runes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Runes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_51 /* Argo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Argo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_52 /* Curry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Curry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_54 /* DiningTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = DiningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		009572F51DF2210E003412B9 /* Frameworks */ = {
+		D514CE771EBD299C00CC25C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D514CEA81EBD29D400CC25C0 /* Runes.framework in Frameworks */,
+				D514CEAC1EBD29D400CC25C0 /* Argo.framework in Frameworks */,
+				D514CEB01EBD29D400CC25C0 /* Curry.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D514CE951EBD299C00CC25C0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		009573091DF2210E003412B9 /* Frameworks */ = {
+		OBJ_117 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
+			files = (
+				OBJ_118 /* Runes.framework in Frameworks */,
+				OBJ_119 /* Argo.framework in Frameworks */,
+				OBJ_120 /* Curry.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		009573141DF2210F003412B9 /* Frameworks */ = {
+		OBJ_88 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
+			files = (
+				OBJ_89 /* Runes.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -122,253 +254,387 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		009572EF1DF2210E003412B9 = {
+		D514CE7B1EBD299C00CC25C0 /* Dining */ = {
 			isa = PBXGroup;
 			children = (
-				D59E8D791E66B3B900D81A05 /* ProjectNotes */,
-				009572FA1DF2210E003412B9 /* Dining */,
-				0095730F1DF2210E003412B9 /* DiningTests */,
-				0095731A1DF2210F003412B9 /* DiningUITests */,
-				009572F91DF2210E003412B9 /* Products */,
-				009573321DF2327D003412B9 /* Frameworks */,
 			);
+			path = Dining;
 			sourceTree = "<group>";
 		};
-		009572F91DF2210E003412B9 /* Products */ = {
+		D514CE901EBD299C00CC25C0 /* DiningTests */ = {
 			isa = PBXGroup;
 			children = (
-				009572F81DF2210E003412B9 /* DiningApp.app */,
-				0095730C1DF2210E003412B9 /* DiningAppTests.xctest */,
-				009573171DF2210F003412B9 /* DiningAppUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		009572FA1DF2210E003412B9 /* Dining */ = {
-			isa = PBXGroup;
-			children = (
-				D53D09AF1E7B431B00D874D9 /* Base.lproj */,
-				D53D09AC1E7B431B00D874D9 /* AppDelegate.swift */,
-				D53D09AD1E7B431B00D874D9 /* Assets.xcassets */,
-				D5006ED51E96BBED00A1F1CD /* View */,
-				D5006ED71E96BCE500A1F1CD /* Controller */,
-				D5006ED61E96BCBF00A1F1CD /* Model */,
-				D5006ED81E96BCFC00A1F1CD /* JSONData */,
-				009573071DF2210E003412B9 /* Info.plist */,
-			);
-			name = Dining;
-			sourceTree = "<group>";
-		};
-		0095730F1DF2210E003412B9 /* DiningTests */ = {
-			isa = PBXGroup;
-			children = (
-				009573101DF2210E003412B9 /* DiningTests.swift */,
-				009573121DF2210E003412B9 /* Info.plist */,
+				D514CE911EBD299C00CC25C0 /* DiningTests.swift */,
+				D514CE931EBD299C00CC25C0 /* Info.plist */,
 			);
 			path = DiningTests;
 			sourceTree = "<group>";
 		};
-		0095731A1DF2210F003412B9 /* DiningUITests */ = {
+		D514CE9B1EBD299C00CC25C0 /* DiningUITests */ = {
 			isa = PBXGroup;
 			children = (
-				0095731B1DF2210F003412B9 /* DiningUITests.swift */,
-				0095731D1DF2210F003412B9 /* Info.plist */,
+				D514CE9C1EBD299C00CC25C0 /* DiningUITests.swift */,
+				D514CE9E1EBD299C00CC25C0 /* Info.plist */,
 			);
 			path = DiningUITests;
 			sourceTree = "<group>";
 		};
-		009573321DF2327D003412B9 /* Frameworks */ = {
+		D514CEBA1EBD2AF600CC25C0 /* Base.lproj */ = {
 			isa = PBXGroup;
 			children = (
+				D514CEBB1EBD2AF600CC25C0 /* LaunchScreen.storyboard */,
+				D514CEBD1EBD2AF600CC25C0 /* Main.storyboard */,
 			);
-			path = Frameworks;
+			path = Base.lproj;
 			sourceTree = "<group>";
 		};
-		D5006ED51E96BBED00A1F1CD /* View */ = {
+		OBJ_16 /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
-				D53D09C21E7B431B00D874D9 /* UIImageView+Extension.swift */,
-				D53D09B41E7B431B00D874D9 /* DishTableViewCell.swift */,
-				D53D09B81E7B431B00D874D9 /* MapTableViewCell.swift */,
-				D53D09BD1E7B431B00D874D9 /* ReservationTableViewCell.swift */,
+				OBJ_17 /* Curry 3.0.0 */,
+				OBJ_19 /* Argo 4.1.2 */,
+				OBJ_45 /* Runes 4.0.1 */,
 			);
-			name = View;
+			name = Dependencies;
 			sourceTree = "<group>";
 		};
-		D5006ED61E96BCBF00A1F1CD /* Model */ = {
+		OBJ_17 /* Curry 3.0.0 */ = {
 			isa = PBXGroup;
 			children = (
-				D53D09BA1E7B431B00D874D9 /* Reservation.swift */,
-				D53D09BB1E7B431B00D874D9 /* ReservationAssembler.swift */,
+				OBJ_18 /* Curry.swift */,
 			);
-			name = Model;
+			name = "Curry 3.0.0";
+			path = ".build/checkouts/Curry.git-7507656763410610606/Source";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_19 /* Argo 4.1.2 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_20 /* Argo */,
+			);
+			name = "Argo 4.1.2";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_20 /* Argo */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_21 /* Extensions */,
+				OBJ_25 /* Functions */,
+				OBJ_30 /* Operators */,
+				OBJ_33 /* Types */,
+			);
+			name = Argo;
+			path = ".build/checkouts/Argo.git--3353098667494248157/Sources/Argo";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_21 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_22 /* Dictionary.swift */,
+				OBJ_23 /* NSNumber.swift */,
+				OBJ_24 /* RawRepresentable.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
-		D5006ED71E96BCE500A1F1CD /* Controller */ = {
+		OBJ_25 /* Functions */ = {
 			isa = PBXGroup;
 			children = (
-				D53D09AE1E7B431B00D874D9 /* BannerTabViewController.swift */,
-				D53D09BC1E7B431B00D874D9 /* ReservationDataManager.swift */,
-				D53D09BE1E7B431B00D874D9 /* ReservationTableViewController.swift */,
-				D53D09B61E7B431B00D874D9 /* InteractiveControllerDismissal.swift */,
-				D53D09B71E7B431B00D874D9 /* InteractiveControllerPresenataion.swift */,
-				D53D09BF1E7B431B00D874D9 /* SlideDismissController.swift */,
-				D53D09C01E7B431B00D874D9 /* SlidePresentationController.swift */,
-				D53D09C11E7B431B00D874D9 /* TableViewAdapter.swift */,
-				D53D09C31E7B431B00D874D9 /* ViewController.swift */,
+				OBJ_26 /* catDecoded.swift */,
+				OBJ_27 /* decode.swift */,
+				OBJ_28 /* flatReduce.swift */,
+				OBJ_29 /* sequence.swift */,
 			);
-			name = Controller;
+			path = Functions;
 			sourceTree = "<group>";
 		};
-		D5006ED81E96BCFC00A1F1CD /* JSONData */ = {
+		OBJ_30 /* Operators */ = {
 			isa = PBXGroup;
 			children = (
-				D53D09AB1E7B431B00D874D9 /* 2dishes.json */,
-				D53D09B51E7B431B00D874D9 /* FullReservation.json */,
-				D53D09B91E7B431B00D874D9 /* PartialReservation.json */,
+				OBJ_31 /* Argo.swift */,
+				OBJ_32 /* DecodeOperators.swift */,
 			);
-			name = JSONData;
+			path = Operators;
 			sourceTree = "<group>";
 		};
-		D53D09AF1E7B431B00D874D9 /* Base.lproj */ = {
+		OBJ_33 /* Types */ = {
 			isa = PBXGroup;
 			children = (
-				D5006ED91E96C08700A1F1CD /* LaunchScreen.storyboard */,
-				D5006EDB1E96C08700A1F1CD /* Main.storyboard */,
+				OBJ_34 /* Decodable.swift */,
+				OBJ_35 /* DecodeError.swift */,
+				OBJ_36 /* JSON.swift */,
+				OBJ_37 /* StandardTypes.swift */,
+				OBJ_38 /* Decoded */,
 			);
-			name = Base.lproj;
-			path = Dining/Base.lproj;
+			path = Types;
 			sourceTree = "<group>";
+		};
+		OBJ_38 /* Decoded */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_39 /* Alternative.swift */,
+				OBJ_40 /* Applicative.swift */,
+				OBJ_41 /* Decoded.swift */,
+				OBJ_42 /* FailureCoalescing.swift */,
+				OBJ_43 /* Functor.swift */,
+				OBJ_44 /* Monad.swift */,
+			);
+			path = Decoded;
+			sourceTree = "<group>";
+		};
+		OBJ_45 /* Runes 4.0.1 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_46 /* Array.swift */,
+				OBJ_47 /* Optional.swift */,
+				OBJ_48 /* Runes.swift */,
+			);
+			name = "Runes 4.0.1";
+			path = ".build/checkouts/Runes.git-5688853668579800230/Sources";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_50 /* Runes.framework */,
+				OBJ_51 /* Argo.framework */,
+				OBJ_52 /* Curry.framework */,
+				OBJ_54 /* DiningTests.xctest */,
+				D514CE7A1EBD299C00CC25C0 /* Dining.app */,
+				D514CE981EBD299C00CC25C0 /* DiningUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_5 = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_9 /* Tests */,
+				D514CE7B1EBD299C00CC25C0 /* Dining */,
+				D514CE901EBD299C00CC25C0 /* DiningTests */,
+				D514CE9B1EBD299C00CC25C0 /* DiningUITests */,
+				OBJ_16 /* Dependencies */,
+				OBJ_49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D514CEB71EBD2AF600CC25C0 /* AppDelegate.swift */,
+				D514CEB81EBD2AF600CC25C0 /* Assets.xcassets */,
+				D514CEB91EBD2AF600CC25C0 /* BannerTabViewController.swift */,
+				D514CEBA1EBD2AF600CC25C0 /* Base.lproj */,
+				D514CEBF1EBD2AF600CC25C0 /* DishTableViewCell.swift */,
+				D514CEC11EBD2AF600CC25C0 /* Info.plist */,
+				D514CEC21EBD2AF600CC25C0 /* InteractiveControllerDismissal.swift */,
+				D514CEC31EBD2AF600CC25C0 /* InteractiveControllerPresenataion.swift */,
+				D514CEC41EBD2AF600CC25C0 /* MapTableViewCell.swift */,
+				D514CEC61EBD2AF600CC25C0 /* Reservation.swift */,
+				D514CEC71EBD2AF600CC25C0 /* ReservationAssembler.swift */,
+				D514CEC81EBD2AF600CC25C0 /* ReservationDataManager.swift */,
+				D514CECA1EBD2AF600CC25C0 /* ReservationTableViewCell.swift */,
+				D514CECB1EBD2AF600CC25C0 /* ReservationTableViewController.swift */,
+				D514CECC1EBD2AF600CC25C0 /* SlideDismissController.swift */,
+				D514CECD1EBD2AF600CC25C0 /* SlidePresentationController.swift */,
+				D514CECE1EBD2AF600CC25C0 /* TableViewAdapter.swift */,
+				D514CECF1EBD2AF600CC25C0 /* UIImageView+Extension.swift */,
+				D514CED01EBD2AF600CC25C0 /* ViewController.swift */,
+				D514CEC91EBD2AF600CC25C0 /* ReservationJSON.swift */,
+				D514CEB61EBD2AF600CC25C0 /* 2dishes.json */,
+				D514CEC51EBD2AF600CC25C0 /* PartialReservation.json */,
+				D514CEC01EBD2AF600CC25C0 /* FullReservation.json */,
+			);
+			path = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_9 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		009572F71DF2210E003412B9 /* DiningApp */ = {
+		D514CE791EBD299C00CC25C0 /* Dining */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 009573201DF2210F003412B9 /* Build configuration list for PBXNativeTarget "DiningApp" */;
+			buildConfigurationList = D514CE9F1EBD299C00CC25C0 /* Build configuration list for PBXNativeTarget "Dining" */;
 			buildPhases = (
-				009572F41DF2210E003412B9 /* Sources */,
-				009572F51DF2210E003412B9 /* Frameworks */,
-				009572F61DF2210E003412B9 /* Resources */,
-				009573371DF23288003412B9 /* Embed Frameworks */,
+				D514CE761EBD299C00CC25C0 /* Sources */,
+				D514CE771EBD299C00CC25C0 /* Frameworks */,
+				D514CE781EBD299C00CC25C0 /* Resources */,
+				D514CEB41EBD29D400CC25C0 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D514CEAB1EBD29D400CC25C0 /* PBXTargetDependency */,
+				D514CEAF1EBD29D400CC25C0 /* PBXTargetDependency */,
+				D514CEB31EBD29D400CC25C0 /* PBXTargetDependency */,
 			);
-			name = DiningApp;
+			name = Dining;
 			productName = Dining;
-			productReference = 009572F81DF2210E003412B9 /* DiningApp.app */;
+			productReference = D514CE7A1EBD299C00CC25C0 /* Dining.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0095730B1DF2210E003412B9 /* DiningAppTests */ = {
+		D514CE971EBD299C00CC25C0 /* DiningUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 009573231DF2210F003412B9 /* Build configuration list for PBXNativeTarget "DiningAppTests" */;
+			buildConfigurationList = D514CEA51EBD299C00CC25C0 /* Build configuration list for PBXNativeTarget "DiningUITests" */;
 			buildPhases = (
-				009573081DF2210E003412B9 /* Sources */,
-				009573091DF2210E003412B9 /* Frameworks */,
-				0095730A1DF2210E003412B9 /* Resources */,
+				D514CE941EBD299C00CC25C0 /* Sources */,
+				D514CE951EBD299C00CC25C0 /* Frameworks */,
+				D514CE961EBD299C00CC25C0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0095730E1DF2210E003412B9 /* PBXTargetDependency */,
+				D514CE9A1EBD299C00CC25C0 /* PBXTargetDependency */,
 			);
-			name = DiningAppTests;
+			name = DiningUITests;
+			productName = DiningUITests;
+			productReference = D514CE981EBD299C00CC25C0 /* DiningUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		OBJ_111 /* DiningTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_112 /* Build configuration list for PBXNativeTarget "DiningTests" */;
+			buildPhases = (
+				OBJ_115 /* Sources */,
+				OBJ_117 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_122 /* PBXTargetDependency */,
+				OBJ_123 /* PBXTargetDependency */,
+				OBJ_124 /* PBXTargetDependency */,
+			);
+			name = DiningTests;
 			productName = DiningTests;
-			productReference = 0095730C1DF2210E003412B9 /* DiningAppTests.xctest */;
+			productReference = OBJ_54 /* DiningTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		009573161DF2210F003412B9 /* DiningAppUITests */ = {
+		OBJ_55 /* Runes */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 009573261DF2210F003412B9 /* Build configuration list for PBXNativeTarget "DiningAppUITests" */;
+			buildConfigurationList = OBJ_56 /* Build configuration list for PBXNativeTarget "Runes" */;
 			buildPhases = (
-				009573131DF2210F003412B9 /* Sources */,
-				009573141DF2210F003412B9 /* Frameworks */,
-				009573151DF2210F003412B9 /* Resources */,
+				OBJ_59 /* Sources */,
+				OBJ_63 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				009573191DF2210F003412B9 /* PBXTargetDependency */,
 			);
-			name = DiningAppUITests;
-			productName = DiningUITests;
-			productReference = 009573171DF2210F003412B9 /* DiningAppUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
+			name = Runes;
+			productName = Runes;
+			productReference = OBJ_50 /* Runes.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		OBJ_64 /* Argo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_65 /* Build configuration list for PBXNativeTarget "Argo" */;
+			buildPhases = (
+				OBJ_68 /* Sources */,
+				OBJ_88 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_90 /* PBXTargetDependency */,
+			);
+			name = Argo;
+			productName = Argo;
+			productReference = OBJ_51 /* Argo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		OBJ_91 /* Curry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_92 /* Build configuration list for PBXNativeTarget "Curry" */;
+			buildPhases = (
+				OBJ_95 /* Sources */,
+				OBJ_97 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Curry;
+			productName = Curry;
+			productReference = OBJ_52 /* Curry.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		009572F01DF2210E003412B9 /* Project object */ = {
+		OBJ_1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0830;
-				ORGANIZATIONNAME = "";
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 9999;
 				TargetAttributes = {
-					009572F71DF2210E003412B9 = {
-						CreatedOnToolsVersion = 8.1;
+					D514CE791EBD299C00CC25C0 = {
+						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = UVHFXZWG47;
-						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
-					0095730B1DF2210E003412B9 = {
-						CreatedOnToolsVersion = 8.1;
+					D514CE971EBD299C00CC25C0 = {
+						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = UVHFXZWG47;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 009572F71DF2210E003412B9;
+						TestTargetID = D514CE791EBD299C00CC25C0;
 					};
-					009573161DF2210F003412B9 = {
-						CreatedOnToolsVersion = 8.1;
+					OBJ_55 = {
 						DevelopmentTeam = UVHFXZWG47;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 009572F71DF2210E003412B9;
+					};
+					OBJ_64 = {
+						DevelopmentTeam = UVHFXZWG47;
+					};
+					OBJ_91 = {
+						DevelopmentTeam = UVHFXZWG47;
 					};
 				};
 			};
-			buildConfigurationList = 009572F31DF2210E003412B9 /* Build configuration list for PBXProject "Dining" */;
-			compatibilityVersion = "Xcode 8.0";
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "Dining" */;
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 009572EF1DF2210E003412B9;
-			productRefGroup = 009572F91DF2210E003412B9 /* Products */;
+			mainGroup = OBJ_5;
+			productRefGroup = OBJ_49 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				009572F71DF2210E003412B9 /* DiningApp */,
-				0095730B1DF2210E003412B9 /* DiningAppTests */,
-				009573161DF2210F003412B9 /* DiningAppUITests */,
+				D514CE791EBD299C00CC25C0 /* Dining */,
+				OBJ_55 /* Runes */,
+				OBJ_64 /* Argo */,
+				OBJ_91 /* Curry */,
+				OBJ_111 /* DiningTests */,
+				D514CE971EBD299C00CC25C0 /* DiningUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		009572F61DF2210E003412B9 /* Resources */ = {
+		D514CE781EBD299C00CC25C0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D59E8D7A1E66B3BA00D81A05 /* ProjectNotes in Resources */,
-				D53D09CB1E7B431B00D874D9 /* FullReservation.json in Resources */,
-				D53D09CF1E7B431B00D874D9 /* PartialReservation.json in Resources */,
-				D5006EDE1E96C08700A1F1CD /* Main.storyboard in Resources */,
-				D5006EDD1E96C08700A1F1CD /* LaunchScreen.storyboard in Resources */,
-				D53D09C41E7B431B00D874D9 /* 2dishes.json in Resources */,
+				D514CEEA1EBD365B00CC25C0 /* PartialReservation.json in Resources */,
+				D530BDF31EBD8E5700C051B8 /* Main.storyboard in Resources */,
+				D530BDF21EBD8E5100C051B8 /* LaunchScreen.storyboard in Resources */,
+				D514CEFB1EBD379D00CC25C0 /* Assets.xcassets in Resources */,
+				D514CEE71EBD364C00CC25C0 /* FullReservation.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0095730A1DF2210E003412B9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		009573151DF2210F003412B9 /* Resources */ = {
+		D514CE961EBD299C00CC25C0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -378,73 +644,147 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		009572F41DF2210E003412B9 /* Sources */ = {
+		D514CE761EBD299C00CC25C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D53D09C71E7B431B00D874D9 /* BannerTabViewController.swift in Sources */,
-				D53D09CA1E7B431B00D874D9 /* DishTableViewCell.swift in Sources */,
-				D53D09C51E7B431B00D874D9 /* AppDelegate.swift in Sources */,
-				D53D09CE1E7B431B00D874D9 /* MapTableViewCell.swift in Sources */,
-				D53D09D31E7B431B00D874D9 /* ReservationTableViewCell.swift in Sources */,
-				D53D09D51E7B431B00D874D9 /* SlideDismissController.swift in Sources */,
-				D53D09D21E7B431B00D874D9 /* ReservationDataManager.swift in Sources */,
-				D53D09CC1E7B431B00D874D9 /* InteractiveControllerDismissal.swift in Sources */,
-				D53D09D71E7B431B00D874D9 /* TableViewAdapter.swift in Sources */,
-				D53D09D91E7B431B00D874D9 /* ViewController.swift in Sources */,
-				D53D09D81E7B431B00D874D9 /* UIImageView+Extension.swift in Sources */,
-				D53D09D41E7B431B00D874D9 /* ReservationTableViewController.swift in Sources */,
-				D53D09D01E7B431B00D874D9 /* Reservation.swift in Sources */,
-				D53D09D11E7B431B00D874D9 /* ReservationAssembler.swift in Sources */,
-				D53D09CD1E7B431B00D874D9 /* InteractiveControllerPresenataion.swift in Sources */,
-				D53D09D61E7B431B00D874D9 /* SlidePresentationController.swift in Sources */,
+				D514CEF91EBD376E00CC25C0 /* InteractiveControllerDismissal.swift in Sources */,
+				D514CEF51EBD368A00CC25C0 /* UIImageView+Extension.swift in Sources */,
+				D514CEEC1EBD366300CC25C0 /* ReservationAssembler.swift in Sources */,
+				D514CEEE1EBD366D00CC25C0 /* ReservationJSON.swift in Sources */,
+				D514CEE61EBD364600CC25C0 /* AppDelegate.swift in Sources */,
+				D514CEF31EBD368500CC25C0 /* TableViewAdapter.swift in Sources */,
+				D514CEE91EBD365700CC25C0 /* MapTableViewCell.swift in Sources */,
+				D514CEF01EBD367700CC25C0 /* ReservationTableViewController.swift in Sources */,
+				D514CEEB1EBD365E00CC25C0 /* Reservation.swift in Sources */,
+				D514CEF21EBD368000CC25C0 /* SlidePresentationController.swift in Sources */,
+				D514CEE81EBD365300CC25C0 /* InteractiveControllerPresenataion.swift in Sources */,
+				D514CEE51EBD364100CC25C0 /* BannerTabViewController.swift in Sources */,
+				D514CEF11EBD367C00CC25C0 /* SlideDismissController.swift in Sources */,
+				D514CEED1EBD366900CC25C0 /* ReservationDataManager.swift in Sources */,
+				D514CEEF1EBD367200CC25C0 /* ReservationTableViewCell.swift in Sources */,
+				D514CEF61EBD369000CC25C0 /* ViewController.swift in Sources */,
+				D514CEE41EBD363A00CC25C0 /* DishTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		009573081DF2210E003412B9 /* Sources */ = {
+		D514CE941EBD299C00CC25C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				009573111DF2210E003412B9 /* DiningTests.swift in Sources */,
+				D514CE9D1EBD299C00CC25C0 /* DiningUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		009573131DF2210F003412B9 /* Sources */ = {
+		OBJ_115 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				0095731C1DF2210F003412B9 /* DiningUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_60 /* Array.swift in Sources */,
+				OBJ_61 /* Optional.swift in Sources */,
+				OBJ_62 /* Runes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_69 /* Dictionary.swift in Sources */,
+				OBJ_70 /* NSNumber.swift in Sources */,
+				OBJ_71 /* RawRepresentable.swift in Sources */,
+				OBJ_72 /* catDecoded.swift in Sources */,
+				OBJ_73 /* decode.swift in Sources */,
+				OBJ_74 /* flatReduce.swift in Sources */,
+				OBJ_75 /* sequence.swift in Sources */,
+				OBJ_76 /* Argo.swift in Sources */,
+				OBJ_77 /* DecodeOperators.swift in Sources */,
+				OBJ_78 /* Decodable.swift in Sources */,
+				OBJ_79 /* DecodeError.swift in Sources */,
+				OBJ_80 /* JSON.swift in Sources */,
+				OBJ_81 /* StandardTypes.swift in Sources */,
+				OBJ_82 /* Alternative.swift in Sources */,
+				OBJ_83 /* Applicative.swift in Sources */,
+				OBJ_84 /* Decoded.swift in Sources */,
+				OBJ_85 /* FailureCoalescing.swift in Sources */,
+				OBJ_86 /* Functor.swift in Sources */,
+				OBJ_87 /* Monad.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_96 /* Curry.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0095730E1DF2210E003412B9 /* PBXTargetDependency */ = {
+		D514CE9A1EBD299C00CC25C0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 009572F71DF2210E003412B9 /* DiningApp */;
-			targetProxy = 0095730D1DF2210E003412B9 /* PBXContainerItemProxy */;
+			target = D514CE791EBD299C00CC25C0 /* Dining */;
+			targetProxy = D514CE991EBD299C00CC25C0 /* PBXContainerItemProxy */;
 		};
-		009573191DF2210F003412B9 /* PBXTargetDependency */ = {
+		D514CEAB1EBD29D400CC25C0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 009572F71DF2210E003412B9 /* DiningApp */;
-			targetProxy = 009573181DF2210F003412B9 /* PBXContainerItemProxy */;
+			target = OBJ_55 /* Runes */;
+			targetProxy = D514CEAA1EBD29D400CC25C0 /* PBXContainerItemProxy */;
+		};
+		D514CEAF1EBD29D400CC25C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_64 /* Argo */;
+			targetProxy = D514CEAE1EBD29D400CC25C0 /* PBXContainerItemProxy */;
+		};
+		D514CEB31EBD29D400CC25C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_91 /* Curry */;
+			targetProxy = D514CEB21EBD29D400CC25C0 /* PBXContainerItemProxy */;
+		};
+		OBJ_122 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_55 /* Runes */;
+			targetProxy = D514CE721EBD285D00CC25C0 /* PBXContainerItemProxy */;
+		};
+		OBJ_123 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_64 /* Argo */;
+			targetProxy = D514CE731EBD285D00CC25C0 /* PBXContainerItemProxy */;
+		};
+		OBJ_124 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_91 /* Curry */;
+			targetProxy = D514CE741EBD285D00CC25C0 /* PBXContainerItemProxy */;
+		};
+		OBJ_90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_55 /* Runes */;
+			targetProxy = D514CE6E1EBD285D00CC25C0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D5006ED91E96C08700A1F1CD /* LaunchScreen.storyboard */ = {
+		D514CEBB1EBD2AF600CC25C0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D5006EDA1E96C08700A1F1CD /* Base */,
+				D514CEBC1EBD2AF600CC25C0 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		D5006EDB1E96C08700A1F1CD /* Main.storyboard */ = {
+		D514CEBD1EBD2AF600CC25C0 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D5006EDC1E96C08700A1F1CD /* Base */,
+				D514CEBE1EBD2AF600CC25C0 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -452,15 +792,17 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		0095731E1DF2210F003412B9 /* Debug */ = {
+		D514CEA01EBD299C00CC25C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
@@ -471,18 +813,15 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = UVHFXZWG47;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -493,25 +832,30 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				INFOPLIST_FILE = Dining/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.synthus.Dining;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		0095731F1DF2210F003412B9 /* Release */ = {
+		D514CEA11EBD299C00CC25C0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
@@ -522,12 +866,11 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = UVHFXZWG47;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -538,150 +881,396 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				INFOPLIST_FILE = Dining/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.synthus.Dining;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		009573211DF2210F003412B9 /* Debug */ = {
+		D514CEA61EBD299C00CC25C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = UVHFXZWG47;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = DiningUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.synthus.DiningUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Dining;
+			};
+			name = Debug;
+		};
+		D514CEA71EBD299C00CC25C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = UVHFXZWG47;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = DiningUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.synthus.DiningUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Dining;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		OBJ_113 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Frameworks",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
-				INFOPLIST_FILE = Dining/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.synthus.Dining;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Dining.xcodeproj/DiningTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				TARGET_NAME = DiningTests;
+			};
+			name = Debug;
+		};
+		OBJ_114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Dining.xcodeproj/DiningTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				TARGET_NAME = DiningTests;
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DXcode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
+				USE_HEADERMAP = NO;
 			};
 			name = Debug;
 		};
-		009573221DF2210F003412B9 /* Release */ = {
+		OBJ_4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		OBJ_57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
 				DEVELOPMENT_TEAM = UVHFXZWG47;
+				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Frameworks",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
-				INFOPLIST_FILE = Dining/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.synthus.Dining;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		009573241DF2210F003412B9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = UVHFXZWG47;
-				INFOPLIST_FILE = DiningTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.synthus.DiningTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiningApp.app/DiningApp";
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Dining.xcodeproj/Runes_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Runes;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = Runes;
 			};
 			name = Debug;
 		};
-		009573251DF2210F003412B9 /* Release */ = {
+		OBJ_58 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = UVHFXZWG47;
-				INFOPLIST_FILE = DiningTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.synthus.DiningTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiningApp.app/DiningApp";
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Dining.xcodeproj/Runes_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Runes;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = Runes;
 			};
 			name = Release;
 		};
-		009573271DF2210F003412B9 /* Debug */ = {
+		OBJ_66 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = UVHFXZWG47;
-				INFOPLIST_FILE = DiningUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.synthus.DiningUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = Dining;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Dining.xcodeproj/Argo_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Argo;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = Argo;
 			};
 			name = Debug;
 		};
-		009573281DF2210F003412B9 /* Release */ = {
+		OBJ_67 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = UVHFXZWG47;
-				INFOPLIST_FILE = DiningUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.synthus.DiningUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = Dining;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Dining.xcodeproj/Argo_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Argo;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = Argo;
+			};
+			name = Release;
+		};
+		OBJ_93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = UVHFXZWG47;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Dining.xcodeproj/Curry_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Curry;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = Curry;
+			};
+			name = Debug;
+		};
+		OBJ_94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = UVHFXZWG47;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Dining.xcodeproj/Curry_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Curry;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = Curry;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		009572F31DF2210E003412B9 /* Build configuration list for PBXProject "Dining" */ = {
+		D514CE9F1EBD299C00CC25C0 /* Build configuration list for PBXNativeTarget "Dining" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0095731E1DF2210F003412B9 /* Debug */,
-				0095731F1DF2210F003412B9 /* Release */,
+				D514CEA01EBD299C00CC25C0 /* Debug */,
+				D514CEA11EBD299C00CC25C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
-		009573201DF2210F003412B9 /* Build configuration list for PBXNativeTarget "DiningApp" */ = {
+		D514CEA51EBD299C00CC25C0 /* Build configuration list for PBXNativeTarget "DiningUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				009573211DF2210F003412B9 /* Debug */,
-				009573221DF2210F003412B9 /* Release */,
+				D514CEA61EBD299C00CC25C0 /* Debug */,
+				D514CEA71EBD299C00CC25C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
-		009573231DF2210F003412B9 /* Build configuration list for PBXNativeTarget "DiningAppTests" */ = {
+		OBJ_112 /* Build configuration list for PBXNativeTarget "DiningTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				009573241DF2210F003412B9 /* Debug */,
-				009573251DF2210F003412B9 /* Release */,
+				OBJ_113 /* Debug */,
+				OBJ_114 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
-		009573261DF2210F003412B9 /* Build configuration list for PBXNativeTarget "DiningAppUITests" */ = {
+		OBJ_2 /* Build configuration list for PBXProject "Dining" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				009573271DF2210F003412B9 /* Debug */,
-				009573281DF2210F003412B9 /* Release */,
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_56 /* Build configuration list for PBXNativeTarget "Runes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_57 /* Debug */,
+				OBJ_58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_65 /* Build configuration list for PBXNativeTarget "Argo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_66 /* Debug */,
+				OBJ_67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_92 /* Build configuration list for PBXNativeTarget "Curry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_93 /* Debug */,
+				OBJ_94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 009572F01DF2210E003412B9 /* Project object */;
+	rootObject = OBJ_1 /* Project object */;
 }

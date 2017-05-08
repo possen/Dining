@@ -2,62 +2,35 @@
 //  DiningTests.swift
 //  DiningTests
 //
+//  Created by Paul Ossenbruggen on 5/5/17.
+//
 //
 
 import XCTest
-@testable import DiningApp
+@testable import Dining
 
 class DiningTests: XCTestCase {
     
-    func testFullReservation() {
-		let url = Bundle.main.url(forResource: "FullReservation", withExtension:"json")
-		let data = try! Data(contentsOf:url!, options: Data.ReadingOptions.uncached)
-		let json = try! JSONSerialization.jsonObject(with: data, options: []) as? [String : Any]
-		
-		guard let reservation = ReservationAssembler().createReservation(json) else {
-			XCTFail("reservation was not built")
-			return
-		}
-		
-		XCTAssertNotNil(reservation.restaurant.profilePhoto)
-		XCTAssertTrue(reservation.restaurant.dishes.count == 3)
-		
-		let firstDish = reservation.restaurant.dishes[0]
-		XCTAssertNotEqual(firstDish.photos.count, 0)
-		XCTAssertNotEqual(firstDish.snippet.highlights.count, 0)
+    override func setUp() {
+        super.setUp()
+        // Put setup code here. This method is called before the invocation of each test method in the class.
     }
-	
-	func testTwoDishes() {
-		let url = Bundle.main.url(forResource: "2dishes", withExtension:"json")
-		let data = try! Data(contentsOf:url!, options: Data.ReadingOptions.uncached)
-		let json = try! JSONSerialization.jsonObject(with: data, options: []) as? [String : Any]
-		
-		guard let reservation = ReservationAssembler().createReservation(json) else {
-			XCTFail("reservation was not built")
-			return
-		}
-		
-		XCTAssertNotNil(reservation.restaurant.profilePhoto)
-		XCTAssertEqual(reservation.restaurant.dishes.count, 2)
-		
-		let firstDish = reservation.restaurant.dishes[0]
-		XCTAssertNotEqual(firstDish.photos.count, 0)
-		XCTAssertNotEqual(firstDish.snippet.highlights.count, 0)
-	}
-	
-	func testPartialReservation() {
-		let url = Bundle.main.url(forResource: "PartialReservation", withExtension:"json")
-		let data = try! Data(contentsOf:url!, options: Data.ReadingOptions.uncached)
-		let json = try! JSONSerialization.jsonObject(with: data, options: []) as? [String : Any]
-		
-		guard let reservation = ReservationAssembler().createReservation(json) else {
-			XCTFail("reservation was not built")
-			return
-		}
-		
-		XCTAssertNotNil(reservation.restaurant.profilePhoto)
-		XCTAssertEqual(reservation.restaurant.dishes.count, 0)
-	}
-
-	
+    
+    override func tearDown() {
+        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        super.tearDown()
+    }
+    
+    func testExample() {
+        // This is an example of a functional test case.
+        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    }
+    
+    func testPerformanceExample() {
+        // This is an example of a performance test case.
+        self.measure {
+            // Put the code you want to measure the time of here.
+        }
+    }
+    
 }

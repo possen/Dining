@@ -1,0 +1,77 @@
+{
+  "utcDateTime" : "2016-12-29T02:00+0000",
+  "dateTime" : "2016-12-28T18:00",
+  "restaurant" : {
+	  "zip": "94104",
+    "latitude" : 37.332089,
+    "id" : "262309",
+    "state" : "CA",
+    "longitude" : -122.030775,
+    "description" : "iOS Team. Automate all the things!\n\r\nPlease contact iOS team before making ANY changes.\n\n\r\n### BLOCKED DAYS ###\n\r\n- Tuesday (all day)\n\r\n### CREDIT CARDS ###\n\r\n- Everyday (party size 5-6)\n\r\n- Specific day standard message: Wednesday (7am-10am)\n\r\n- Specific day custom message: Thursday (7am-10am)\n\r\n (Specific day message will override the Everyday large party message)\n\r\n### PARTY SIZES ###\n\r\n- Min 2 \/ Max 6\n\r\n### MAX ADVANCE DAYS ###\n\r\n- 31 days\n\r\n### ATTRIBUTE TABLES ###\n\r\n- Everyday (12am - 3am)\n\r\n### POP ###\n\r\n- Monday - Friday (3pm - 6pm)",
+	  
+    "profilePhoto" : {
+      "id" : "24399459",
+	  "name": "",
+      "references" : [
+        {
+          "width" : 160,
+          "uri" : "https:\/\/resizer.otstatic.com\/v2\/photos\/small\/24399459.jpg",
+          "height" : 160
+        },
+        {
+          "width" : 160,
+          "uri" : "https:\/\/resizer.otstatic.com\/v2\/photos\/wide-small\/24399459.jpg",
+          "height" : 90
+        },
+        {
+          "width" : 208,
+          "uri" : "https:\/\/resizer.otstatic.com\/v2\/photos\/legacy\/24399459.jpg",
+          "height" : 208
+        },
+        {
+          "width" : 320,
+          "uri" : "https:\/\/resizer.otstatic.com\/v2\/photos\/medium\/24399459.jpg",
+          "height" : 320
+        },
+        {
+          "width" : 320,
+          "uri" : "https:\/\/resizer.otstatic.com\/v2\/photos\/wide-medium\/24399459.jpg",
+          "height" : 180
+        },
+        {
+          "width" : 640,
+          "uri" : "https:\/\/resizer.otstatic.com\/v2\/photos\/large\/24399459.jpg",
+          "height" : 640
+        },
+        {
+          "width" : 640,
+          "uri" : "https:\/\/resizer.otstatic.com\/v2\/photos\/wide-large\/24399459.jpg",
+          "height" : 360
+        },
+        {
+          "width" : 1280,
+          "uri" : "https:\/\/resizer.otstatic.com\/v2\/photos\/huge\/24399459.jpg",
+          "height" : 1280
+        },
+        {
+          "width" : 1280,
+          "uri" : "https:\/\/resizer.otstatic.com\/v2\/photos\/wide-huge\/24399459.jpg",
+          "height" : 720
+        }
+      ]
+    },
+    "name" : "Guest Center - iOS\/Mobile Auto",
+    "country" : "United States",
+	  
+    "street" : "1 Montgomery Street",
+    "city" : "San Francisco",
+    "postalCode" : "94104",
+  },
+	"confirmationMessage" : "Reservation details custom message. Reserve all the things.",
+  "id" : "502021878",
+  "number" : "3104047937",
+  "points" : 100,
+  "confirmationNumber" : "2042",
+  "partySize" : 2,
+  "notes" : ""
+}
