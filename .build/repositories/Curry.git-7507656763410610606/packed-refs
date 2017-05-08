@@ -1,0 +1,20 @@
+# pack-refs with: peeled fully-peeled 
+476e4fe4bd849e7b56c131f505e92de3328e6768 refs/heads/gf-all-in
+863ec7b235448ca53e682cf6958df4c30880c78e refs/heads/master
+77d2d5bada61733bbdafb2348d7dca1097040c4c refs/heads/toomey8-patch-1
+b32642b491d6135c6e287a91fd5493393cbd29a7 refs/heads/toomey8-patch-2
+aa93532d84892714b5a20ba5c376fcff5a3e1752 refs/heads/toomey8-patch-3
+f845c353ee1571e701c359a2a8a42760d93da79e refs/tags/v1.0.0
+367f140c27b79305662748a07bf827da4bb64d32 refs/tags/v1.1.0
+d4f1130d6dcd80c78eb4bc7e02d3f1a1a028f05f refs/tags/v1.1.1
+2f2521843a98a9cf6f192809324ef90e8d1071dd refs/tags/v1.2.0
+c035eb208f7c96169cdf4f7fc055f1e8ebe62fdd refs/tags/v1.3.0
+370e3553e4bdb7bb6c9abb980e48c90dff6c2e0f refs/tags/v1.4.0
+2397c82e2ef800df6327a69640e6dba386b38268 refs/tags/v2.0.0
+6d1bd5a772ede007ff5422a2abe1f26a42fde563 refs/tags/v2.1.0
+c38c0072a4894637afbc773716e5bf05dd3462c7 refs/tags/v2.2.0
+e2d770050d661c7d6ac7f2ea960046f1fa88c3bc refs/tags/v2.3.0
+331fccf5689844c9e3ebbbc229c4c1d6f3a17b58 refs/tags/v2.3.1
+32e44b8b1ee19559b0bbdf9987e0e2cacbbd2966 refs/tags/v2.3.2
+2fdec50caebc5dccd5d026e6d69d433a9eb86df4 refs/tags/v2.3.3
+c9f1a37e0e12ad38af7933b9386bdc5f9e6222dc refs/tags/v3.0.0

@@ -1,0 +1,44 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "22FBD10FE83B54D87E69AF6096928E4DF7D54D8B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "22FBD10FE83B54D87E69AF6096928E4DF7D54D8B" : 9223372036854775807,
+    "0A5C3A6DB1EA9211CEFA5384E9882B4D710699A4" : 9223372036854775807,
+    "39CB70283A1C33AFB5FF861E924945826EDC74FE" : 9223372036854775807,
+    "194A7A54F3CE0138A6C320E0643B7C60F8218891" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BDA05CBD-0A54-49D9-BF8D-60B3144B0AB6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "22FBD10FE83B54D87E69AF6096928E4DF7D54D8B" : "Dining\/",
+    "0A5C3A6DB1EA9211CEFA5384E9882B4D710699A4" : "Dining\/.build\/checkouts\/Runes.git-5688853668579800230\/",
+    "39CB70283A1C33AFB5FF861E924945826EDC74FE" : "Dining\/.build\/checkouts\/Argo.git--3353098667494248157\/",
+    "194A7A54F3CE0138A6C320E0643B7C60F8218891" : "Dining\/.build\/checkouts\/Curry.git-7507656763410610606\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Dining",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Dining.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/possen\/Projects\/Dining\/.build\/repositories\/Runes.git-5688853668579800230",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0A5C3A6DB1EA9211CEFA5384E9882B4D710699A4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/possen\/Projects\/Dining\/.build\/repositories\/Curry.git-7507656763410610606",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "194A7A54F3CE0138A6C320E0643B7C60F8218891"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/possen\/Dining.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "22FBD10FE83B54D87E69AF6096928E4DF7D54D8B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/possen\/Projects\/Dining\/.build\/repositories\/Argo.git--3353098667494248157",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "39CB70283A1C33AFB5FF861E924945826EDC74FE"
+    }
+  ]
+}

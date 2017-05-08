@@ -1,0 +1,24 @@
+{
+  "autoPin": true,
+  "pins": [
+    {
+      "package": "Argo",
+      "reason": null,
+      "repositoryURL": "https://github.com/thoughtbot/Argo.git",
+      "version": "4.1.2"
+    },
+    {
+      "package": "Curry",
+      "reason": null,
+      "repositoryURL": "https://github.com/thoughtbot/Curry.git",
+      "version": "3.0.0"
+    },
+    {
+      "package": "Runes",
+      "reason": null,
+      "repositoryURL": "https://github.com/thoughtbot/Runes.git",
+      "version": "4.0.1"
+    }
+  ],
+  "version": 1
+}
