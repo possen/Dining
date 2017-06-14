@@ -35,6 +35,7 @@ class ReservationTableViewController: UITableViewController {
 
         reservationDataManager.fetchReservations()
         
+        // register 3 different cell types for each section.
         var reservationAdaptor = TableViewAdaptorSection<ReservationTableViewCell, Reservation> (
             cellReuseIdentifier: "ReservationCell",
             title: "",
@@ -79,8 +80,6 @@ class ReservationTableViewController: UITableViewController {
         )
 
         reservationDataManager.delegate = reservationDataManagerTableViewAdaptor
-        tableView.dataSource = reservationDataManagerTableViewAdaptor
-        tableView.delegate = reservationDataManagerTableViewAdaptor
     }
     
     @IBAction fileprivate func dismissPressed(_ sender: Any) {

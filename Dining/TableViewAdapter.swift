@@ -45,6 +45,9 @@ class TableViewAdaptor: NSObject, UITableViewDataSource, UITableViewDelegate, Ta
         self.tableView = tableView
         self.didChangeHandler = didChangeHandler
         self.sections = sections
+        super.init()
+        tableView.dataSource = self
+        tableView.delegate = self
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
