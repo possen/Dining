@@ -62,7 +62,7 @@ class DishTableViewCell: UITableViewCell {
             if let highlights = viewData?.highlights {
                 let attrText = NSMutableAttributedString(string: desc)
                 for highlight in highlights {
-                    attrText.addAttribute(NSForegroundColorAttributeName,
+                    attrText.addAttribute(convertToNSAttributedStringKey(convertFromNSAttributedStringKey(NSAttributedString.Key.foregroundColor)),
                                           value: UIColor.blue,
                                           range: highlight)
                 }
@@ -87,3 +87,13 @@ extension DishTableViewCell.ViewData {
 }
 
 
+
+// Helper function inserted by Swift 4.2 migrator.
+fileprivate func convertToNSAttributedStringKey(_ input: String) -> NSAttributedString.Key {
+	return NSAttributedString.Key(rawValue: input)
+}
+
+// Helper function inserted by Swift 4.2 migrator.
+fileprivate func convertFromNSAttributedStringKey(_ input: NSAttributedString.Key) -> String {
+	return input.rawValue
+}

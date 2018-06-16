@@ -23,7 +23,7 @@ class InteractiveControllerDismissal: UIPercentDrivenInteractiveTransition {
         view.addGestureRecognizer(gesture)
     }
 
-    func handleGesture(gestureRecognizer: UIPanGestureRecognizer) {
+    @objc func handleGesture(gestureRecognizer: UIPanGestureRecognizer) {
         let view = dismissViewController.view!
         let translation = gestureRecognizer.translation(in: view)
         let distance = translation.y / view.bounds.height

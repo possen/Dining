@@ -68,7 +68,7 @@ extension UIImageView {
         }
     }
     
-    private class func loadImageAtURLCache(_ url : URL, completion: @escaping (UIImage, URL) -> Void ) {
+    internal class func loadImageAtURLCache(_ url : URL, completion: @escaping (UIImage, URL) -> Void ) {
         if let cacheHit = ImageCache.shared.readCache(url: url) {
             completion(cacheHit, url)
         } else {

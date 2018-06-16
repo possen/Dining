@@ -86,7 +86,7 @@ class ReservationTableViewController: UITableViewController {
         dismiss(animated: true, completion: nil)
     }
     
-    func tapAction(sender : UITapGestureRecognizer) {
+    @objc func tapAction(sender : UITapGestureRecognizer) {
         dismissPressed(sender)
     }
 

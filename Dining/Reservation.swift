@@ -15,7 +15,7 @@ struct PhotoSize {
 	public let uri: String
 	
 	public init?(uri: String, width: Int?, height: Int?) {
-		guard uri.characters.count > 0 else {
+		guard uri.count > 0 else {
 			return nil
 		}
 		

@@ -22,7 +22,7 @@ class InteractiveControllerPresentation: UIPercentDrivenInteractiveTransition {
         view.addGestureRecognizer(gesture)
     }
     
-    func handleGesture(gestureRecognizer: UIPanGestureRecognizer) {
+    @objc func handleGesture(gestureRecognizer: UIPanGestureRecognizer) {
         let view = viewController.view!
         let translation = gestureRecognizer.translation(in: view)
         let distance = fabs(translation.y) / view.bounds.height

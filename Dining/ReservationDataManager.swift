@@ -49,7 +49,7 @@ class ReservationDataManager {
         // preload
         if let str = reservation.restaurant.profilePhoto?.urlForSize(desiredSize: CGSize(width: 500, height: 500)),
             let preloadURL = URL(string:str)  {
-            UIImageView.loadImageAtURLCache(preloadURL) { image in }
+            UIImageView.loadImageAtURLCache(preloadURL) { image,arg  in }
         }
         
         self.reservations = [reservation] // plural if the user has multiple reservations but not implemented here.

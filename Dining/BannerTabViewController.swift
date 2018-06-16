@@ -42,12 +42,12 @@ import UIKit
         label.textAlignment = .center
         label.text = reservationDataManager.reservations[0].restaurant.name
         label.textColor = UIColor.black
-        bannerView.addSubview(label)
+        bannerView.contentView.addSubview(label)
         
         interactiveControllerPresentation.wireToViewController(viewController: self, view: bannerView)
     }
     
-    func tapAction(sender : UITapGestureRecognizer) {
+    @objc func tapAction(sender : UITapGestureRecognizer) {
         present()
     }
     
@@ -95,7 +95,7 @@ import UIKit
 }
 
 extension UIViewController {
-    func present() {
+    @objc func present() {
         // override
     }
 }

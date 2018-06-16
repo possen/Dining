@@ -45,7 +45,7 @@ class ReservationAssembler {
 		guard let dtos = dtos else {
 			return nil
 		}
-		return dtos.flatMap { return self.createRange($0) }
+		return dtos.compactMap { return self.createRange($0) }
 	}
     
 	private func createRange(_ dto: [String : Any]?) -> NSRange? {
@@ -74,7 +74,7 @@ class ReservationAssembler {
 			return []
 		}
 		
-		return dtos.flatMap { (dto) -> Dish? in
+		return dtos.compactMap { (dto) -> Dish? in
 			guard let id = dto["id"] as? String,
 				let name = dto["name"] as? String,
 				let photos = self.createPhotos(dtos: dto["photos"] as? [[String : Any]]),
@@ -91,7 +91,7 @@ class ReservationAssembler {
 			return nil
 		}
 		
-		return dtos.flatMap { (dto) -> Photo? in
+		return dtos.compactMap { (dto) -> Photo? in
 			return self.createPhoto(dto)
 		}
 	}
@@ -117,7 +117,7 @@ class ReservationAssembler {
 			return nil
 		}
 		
-		return dtos.flatMap { (dto) -> PhotoSize? in
+		return dtos.compactMap { (dto) -> PhotoSize? in
 			guard let uri = dto["uri"] as? String else {
 				return nil
 			}
